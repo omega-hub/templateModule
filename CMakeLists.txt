@@ -4,7 +4,7 @@ if(TARGET cyclops)
 	SET(MODULE_NAME templateModule)
 
 	# Set module name and source files here
-	add_library(${MODULE_NAME} SHARED 
+	add_library(${MODULE_NAME} MODULE 
 		templateModule.cpp)
 
 	# Set the module library dependencies here
