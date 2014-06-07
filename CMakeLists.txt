@@ -3,6 +3,8 @@ if(TARGET cyclops)
 	# Set the module name here
 	SET(MODULE_NAME templateModule)
 
+	include_directories(${OSG_INCLUDES})
+	
 	# Set module name and source files here
 	add_library(${MODULE_NAME} MODULE 
 		templateModule.cpp)
