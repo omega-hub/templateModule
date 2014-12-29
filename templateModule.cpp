@@ -88,7 +88,6 @@ void HelloModule::initialize()
 	myLight->setColor(Color(1.0f, 1.0f, 1.0f));
 	myLight->setAmbient(Color(0.1f, 0.1f, 0.1f));
 	//light->setSoftShadowWidth(0.01f);
-	mySceneManager->setMainLight(myLight);
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
